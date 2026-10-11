@@ -8,8 +8,6 @@
 
 A retrieval-augmented generation (RAG) system built with MLOps practices. It runs fully on a laptop, with no GPU.
 
-> Final project for the ITI × MLOps MENA "MLOps Practitioner" course, Track B (LLM / RAG).
-
 ## Architecture
 
 ![qanoon-rag architecture](docs/architecture.svg)
