@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Secrets: never commit these
+.env
+
+# Data and artifacts: tracked by DVC or generated, not stored in Git
+data/raw/
+data/interim/
+data/processed/
+data/index/
+mlruns/
+mlartifacts/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
